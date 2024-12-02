@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class exercicio2 {
+    public static void main(String[] args) {
+        Scanner ler = new Scanner(System.in);
+        System.out.print("Digite um numero: ");
+        int numero = ler.nextInt();
+
+        if (numero % 2 == 0){
+            System.out.print("Esse número é PAR");
+
+        } else {
+            System.out.print("Esse número é ÍMPAR");
+        }
+    }
+}
